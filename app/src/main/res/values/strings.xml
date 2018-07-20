@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MadBrains</string>
+
+    <string name="str_price">Цена:</string>
+    <string name="str_price_currency">руб.</string>
+    <string name="str_count">Количество:</string>
+    <string name="str_amount">шт.</string>
+</resources>
