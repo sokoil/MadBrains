@@ -43,7 +43,7 @@ public class ProductViewModel extends AndroidViewModel {
     }
 
     private boolean checkProduct() {
-        return product.get().getName().length() > 0; 
+        return product.get().getName() != null && product.get().getName().length() > 0;
     }
 
     public void saveProduct() {
